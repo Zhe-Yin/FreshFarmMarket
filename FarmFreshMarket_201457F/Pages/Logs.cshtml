@@ -1,0 +1,25 @@
+﻿@page
+@model FarmFreshMarket_201457F.Pages.LogsModel
+@{
+}
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>User</th>
+            <th>Action</th>
+            <th>Time of Creation</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var log in Model.Loglist)
+        {
+            <tr>@log.Id</tr>
+            <tr>@log.User</tr>
+            <tr>@log.Action</tr>
+            <tr>@log.CreateTime</tr>
+        }
+    </tbody>
+</table>

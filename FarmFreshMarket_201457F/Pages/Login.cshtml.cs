@@ -77,7 +77,10 @@ namespace FarmFreshMarket_201457F.Pages
                 var finduser = await _userManager.FindByEmailAsync(LModel.Email);
                 _httpContextAccessor.HttpContext.Session.SetString(SessionVariable.UserName, LModel.Email);
 
+
+
                 await GenerateOTPTokenAsync(finduser);
+
 
 
                 return RedirectToPage("OTP");

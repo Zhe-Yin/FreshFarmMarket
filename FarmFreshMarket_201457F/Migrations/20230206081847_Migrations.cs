@@ -55,6 +55,22 @@ namespace FarmFreshMarket_201457F.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Logs",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Action = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    User = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CreateTime = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Logs", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "OTPS",
                 columns: table => new
                 {
@@ -250,6 +266,9 @@ namespace FarmFreshMarket_201457F.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUserTokens");
+
+            migrationBuilder.DropTable(
+                name: "Logs");
 
             migrationBuilder.DropTable(
                 name: "OTPS");

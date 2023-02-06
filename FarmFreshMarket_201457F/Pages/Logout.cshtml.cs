@@ -23,13 +23,10 @@ namespace FarmFreshMarket_201457F.Pages
                 var username = _contxt.HttpContext.Session.GetString(SessionVariable.UserName);
                 var finduser = await _userManager.FindByEmailAsync(username);
                 
-                var remove = await _userManager.RemoveFromRoleAsync(finduser, "User");
-                
-                if(remove.Succeeded)
-                {
-                    _signInManager.SignOutAsync();
-                    _contxt.HttpContext.Session.Clear();
-                }
+               
+                _signInManager.SignOutAsync();
+                _contxt.HttpContext.Session.Clear();
+               
 
 
                 

@@ -1,5 +1,5 @@
 using Castle.Core.Smtp;
-using FarmFreshMarket_201457F.Controllers;
+
 using FarmFreshMarket_201457F.Data;
 using FarmFreshMarket_201457F.Models;
 using FarmFreshMarket_201457F.Services;
@@ -39,6 +39,10 @@ builder.Services.AddAuthentication(options =>
 		options.ClientId = "4815300734-a65m2otnpr1452j561gvmhpt1qeic6a0.apps.googleusercontent.com";
 		options.ClientSecret = "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";
 	});
+
+//Log Service
+builder.Services.AddScoped<LogService>();
+
 //OTP Service
 builder.Services.AddScoped<OTPService>();
 
@@ -100,7 +104,7 @@ builder.Services.Configure<IdentityOptions>(options =>
 
 
 	// Lockout settings
-	options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(30);
+	options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromSeconds(10);
 	options.Lockout.MaxFailedAccessAttempts = 3;
 	options.Lockout.AllowedForNewUsers = true;
 

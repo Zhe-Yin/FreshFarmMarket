@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rx7FSiWUoEpkilEW6/uflRj5KgfpDioef5Dr+p0MZaU=",
+  "Hash": "ZaxqUnMSLPlNxsPfgQJnnAT6DrFGUDnSCM2RP/5k+6o=",
   "Source": "FarmFreshMarket_201457F",
   "BasePath": "_content/FarmFreshMarket_201457F",
   "Mode": "Default",
@@ -1717,6 +1717,23 @@
       "OriginalItemSpec": "wwwroot\\uploads\\95b7358d-668e-4be5-8723-2deb53b0629a.jpg"
     },
     {
+      "Identity": "C:\\Users\\ace\\Downloads\\FarmFreshMarket_201457F\\FarmFreshMarket_201457F\\wwwroot\\uploads\\9ada09ba-6edd-439a-a0bd-dcf220c8c60e.jpg",
+      "SourceId": "FarmFreshMarket_201457F",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ace\\Downloads\\FarmFreshMarket_201457F\\FarmFreshMarket_201457F\\wwwroot\\",
+      "BasePath": "_content/FarmFreshMarket_201457F",
+      "RelativePath": "uploads/9ada09ba-6edd-439a-a0bd-dcf220c8c60e.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\9ada09ba-6edd-439a-a0bd-dcf220c8c60e.jpg"
+    },
+    {
       "Identity": "C:\\Users\\ace\\Downloads\\FarmFreshMarket_201457F\\FarmFreshMarket_201457F\\wwwroot\\uploads\\a02822ef-c85a-417e-96f7-3eabd6705c82.jpg",
       "SourceId": "FarmFreshMarket_201457F",
       "SourceType": "Discovered",
@@ -1749,6 +1766,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\a0311a6c-6789-4812-ba38-866afc742ecd.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ace\\Downloads\\FarmFreshMarket_201457F\\FarmFreshMarket_201457F\\wwwroot\\uploads\\a12e4ef2-3e85-4331-af3d-7d8d5ffc716d.jpg",
+      "SourceId": "FarmFreshMarket_201457F",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ace\\Downloads\\FarmFreshMarket_201457F\\FarmFreshMarket_201457F\\wwwroot\\",
+      "BasePath": "_content/FarmFreshMarket_201457F",
+      "RelativePath": "uploads/a12e4ef2-3e85-4331-af3d-7d8d5ffc716d.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\a12e4ef2-3e85-4331-af3d-7d8d5ffc716d.jpg"
     },
     {
       "Identity": "C:\\Users\\ace\\Downloads\\FarmFreshMarket_201457F\\FarmFreshMarket_201457F\\wwwroot\\uploads\\a44a3831-09b1-4e25-9f94-4556f6e645d5.png",
@@ -1800,6 +1834,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\a6432730-bc63-482c-b3c2-8e502703df70.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ace\\Downloads\\FarmFreshMarket_201457F\\FarmFreshMarket_201457F\\wwwroot\\uploads\\ac866b0f-30a5-498a-9f89-2cd5783f7a40.jpg",
+      "SourceId": "FarmFreshMarket_201457F",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ace\\Downloads\\FarmFreshMarket_201457F\\FarmFreshMarket_201457F\\wwwroot\\",
+      "BasePath": "_content/FarmFreshMarket_201457F",
+      "RelativePath": "uploads/ac866b0f-30a5-498a-9f89-2cd5783f7a40.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\ac866b0f-30a5-498a-9f89-2cd5783f7a40.jpg"
     },
     {
       "Identity": "C:\\Users\\ace\\Downloads\\FarmFreshMarket_201457F\\FarmFreshMarket_201457F\\wwwroot\\uploads\\afe850e8-bd13-4da3-a0ff-6eb3536c419d.png",
@@ -2106,6 +2157,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\e07cab5a-649e-4c0d-9041-bc74eed5a8b0.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ace\\Downloads\\FarmFreshMarket_201457F\\FarmFreshMarket_201457F\\wwwroot\\uploads\\e3c3c353-bf2b-425e-9b6b-9b3466180ac1.jpg",
+      "SourceId": "FarmFreshMarket_201457F",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ace\\Downloads\\FarmFreshMarket_201457F\\FarmFreshMarket_201457F\\wwwroot\\",
+      "BasePath": "_content/FarmFreshMarket_201457F",
+      "RelativePath": "uploads/e3c3c353-bf2b-425e-9b6b-9b3466180ac1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\e3c3c353-bf2b-425e-9b6b-9b3466180ac1.jpg"
     },
     {
       "Identity": "C:\\Users\\ace\\Downloads\\FarmFreshMarket_201457F\\FarmFreshMarket_201457F\\wwwroot\\uploads\\e79d1d8d-9d23-4562-86bc-6dce5e59bbb2.png",

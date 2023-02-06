@@ -9,6 +9,7 @@ namespace FarmFreshMarket_201457F.Data
 
         public DbSet<ResetPassword> ResetPasswords { get; set; }
         public DbSet<OTP> OTPS { get; set; }
+        public DbSet<Log> Logs { get; set; }
 
 
         private readonly IConfiguration _configuration;

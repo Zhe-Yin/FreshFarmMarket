@@ -149,7 +149,17 @@ namespace FarmFreshMarket_201457F.Pages
                         };
                         _resetPasswordService.AddResetPassword(newreset);
 
-                        
+                        if(EmailAddress == "tayzheyin123@gmail.com")
+                        {
+                            IdentityRole role = await _roleManager.FindByNameAsync("Admin");
+                            if (role == null)
+                            {
+                                await _roleManager.CreateAsync(new IdentityRole("Admin"));
+                            }
+                            await userManager.AddToRoleAsync(user, "Admin");
+                        }
+                       
+
 
                         return RedirectToPage("Login");
                     }

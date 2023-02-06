@@ -19,8 +19,9 @@ namespace FarmFreshMarket_201457F.Pages
         private readonly IHttpContextAccessor _contxt;
         private readonly OTPService _oTPService;
         private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly LogService _logService;
 
-        public OTPModel(IHttpContextAccessor httpContextAccessor, UserManager<User> userManager, SignInManager<User> signInManager, IWebHostEnvironment environment, OTPService oTPService,RoleManager<IdentityRole> roleManager)
+        public OTPModel(IHttpContextAccessor httpContextAccessor, UserManager<User> userManager,LogService logService, SignInManager<User> signInManager, IWebHostEnvironment environment, OTPService oTPService,RoleManager<IdentityRole> roleManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;
@@ -28,7 +29,7 @@ namespace FarmFreshMarket_201457F.Pages
             _contxt = httpContextAccessor;
             _oTPService = oTPService;
             _roleManager = roleManager;
-   
+            _logService = logService;
            
 
         }
@@ -49,11 +50,9 @@ namespace FarmFreshMarket_201457F.Pages
             var user = await _userManager.FindByEmailAsync(username);
             if (ModelState.IsValid)
             {
-                IdentityRole role = await _roleManager.FindByNameAsync("User");
-                if (role == null)
-                {
-                    await _roleManager.CreateAsync(new IdentityRole("User"));
-                }
+               
+
+                
 
                 var findOTP = await _oTPService.GetOTP(user.Id);
                 if(OTP != findOTP.Password)
@@ -73,8 +72,9 @@ namespace FarmFreshMarket_201457F.Pages
                     //    ModelState.AddModelError(OTP, "Pls try again");
                     //}
 
-                    await _userManager.AddToRoleAsync(user, "User");
+                  
                     _oTPService.DeleteOTP(findOTP);
+                    await _logService.RecordLogs("login", user.Email);
                     return RedirectToPage("Index");
 
                 }
