@@ -23,7 +23,7 @@
     <PackageReference Include="NETCore.MailKit" Version="2.1.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="reCaptcha.AspNet.Mvc" Version="1.2.3" />
-    <PackageReference Include="Twilio" Version="6.2.2" />
+    <PackageReference Include="Twilio" Version="7.1.0" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.4" />
   </ItemGroup>
 
